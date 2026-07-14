@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "iias_in_news",
+  "info": {
+    "singularName": "iias-in-new",
+    "pluralName": "iias-in-news",
+    "displayName": "IiAS in the News",
+    "description": "Press mentions of IiAS, shown on the Newsletters page."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "publishedDate": {
+      "type": "date"
+    },
+    "siteName": {
+      "type": "string",
+      "required": true
+    },
+    "siteLink": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

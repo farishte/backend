@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "disclosures",
+  "info": {
+    "singularName": "disclosure",
+    "pluralName": "disclosures",
+    "displayName": "Disclosure",
+    "description": "Regulatory disclosures (About page)."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["files"]
+    }
+  }
+}

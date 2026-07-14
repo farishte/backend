@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "governance_news",
+  "info": {
+    "singularName": "governance-new",
+    "pluralName": "governance-news",
+    "displayName": "Governance News",
+    "description": "Governance news links, shown on the Special Reports page."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "publishedDate": {
+      "type": "date"
+    },
+    "siteName": {
+      "type": "string",
+      "required": true
+    },
+    "siteLink": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
